@@ -6,4 +6,6 @@
 
 ### Second mirror relation of Gleissle
 
+### Launs normal stress rule
+
 ### Shear-induced die-swell
