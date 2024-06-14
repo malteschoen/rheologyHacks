@@ -1,7 +1,7 @@
 # rheologyHacks
 
 ### Cox-Merz-Rule [2]
-$\eta(\dot{\gamma}=\omega)=\omega=\frac{G''(\omega)}{\omega}\sqrt{1+\left ( \frac{G'(\omega)}{G''(\omega)} \right )^{2}}$
+$\eta(\dot{\gamma}=\omega)=\frac{G''(\omega)}{\omega}\sqrt{1+\left ( \frac{G'(\omega)}{G''(\omega)} \right )^{2}}$
 
 ### First mirror relation of Gleissle
 
@@ -10,7 +10,7 @@ $\eta(\dot{\gamma}=\omega)=\omega=\frac{G''(\omega)}{\omega}\sqrt{1+\left ( \fra
 ### Launs normal stress rule [1]
 $N_{1}(\dot{\gamma}=\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G''(\omega)}  \right )^{2}\right ]^{\alpha}$
 
-with a $\alpha$ usually being 0.7.
+with $\alpha$ usually being 0.7.
 
 ### Shear-induced die-swell
 
