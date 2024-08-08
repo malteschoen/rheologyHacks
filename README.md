@@ -1,5 +1,9 @@
 # rheologyHacks
 
+### the interrelation of shear modulus, shear viscosity and relaxation time
+
+### just what on earth is steady-state-compliance?
+
 ### Cox-Merz-Rule [2]
 $\eta(\dot{\gamma}=\omega)=\frac{G''(\omega)}{\omega}\sqrt{1+\left ( \frac{G'(\omega)}{G''(\omega)} \right )^{2}}$
 
