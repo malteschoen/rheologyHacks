@@ -7,12 +7,16 @@
 ### Cox-Merz-Rule [2]
 $\eta(\dot{\gamma}=\omega)=\frac{G''(\omega)}{\omega}\sqrt{1+\left ( \frac{G'(\omega)}{G''(\omega)} \right )^{2}}$
 
+or formulated in terms of shear stress
+
+$\tau_{12}(\dot{\gamma}=\omega)=G''(\omega)\left [1+\left (\frac{G'(\omega)}{G''(\omega)}  \right )^{2}\right ]^{0.5}$
+
 ### First mirror relation of Gleissle
 
 ### Second mirror relation of Gleissle
 
 ### Launs normal stress rule [1]
-$N_{1}(\dot{\gamma}=\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G''(\omega)}  \right )^{2}\right ]^{\alpha}$
+$N_{1}(\dot{\gamma}=\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G''(\omega)}  \right )^{2}\right ]^{\alpha} \approx \tau_{11}$
 
 with $\alpha$ usually being 0.7.
 
