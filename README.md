@@ -18,7 +18,12 @@ $\tau_{12}(\dot{\gamma}=\omega)=G''(\omega)\left [1+\left (\frac{G'(\omega)}{G''
 ### Launs normal stress rule [1]
 $N_{1}(\dot{\gamma}=\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G''(\omega)}  \right )^{2}\right ]^{\alpha} \approx \tau_{11}$
 
-with $\alpha$ usually being 0.7.
+with $\alpha$ usually being 0.7
+
+One can also relate the (shear-rate-dependant) first normal stress coefficient $\Psi_{1}$:
+
+$\Psi_{1}\omega^{2}=N_{1}(\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G''(\omega)}  \right )^{2}\right ]^{\alpha}$ 
+
 
 ### Shear-induced die-swell
 
