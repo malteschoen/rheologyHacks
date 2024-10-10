@@ -41,6 +41,33 @@ $\Psi_{1}\omega^{2}=N_{1}(\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G
 
 ## Chapter 4: A simple formula for shear-induced die-swell
 
+* We assume a fluid being sheared in the plane defined by the '1' and '2' axes, of which the '1' axis is the flow direction/direction of the moving plate.
+* This shear flow stores energy in the melt, the elastic recovery of which then causes the extrudate to swell.
+* The first normal stress difference $N_{1}$ is defined as:
+
+$N_{1} = \tau_{11}-\tau_{22}$
+
+
+* Mendelson et al. [3] posit that (Eq.18):
+
+$N_{1} = \tau_{11}-\tau_{22} =\frac{2}{3}\tau_{12} \sqrt{B^4-\frac{1}{B^{2}}}$
+
+* In most cases $\tau_{22}$ is small and can be neglected.
+* For die swell factors B larger than 1.5 we can also neglect the contribution of $`\frac{1}{B^{2}}`$.
+* Thus, we can conclude that the die swell factor B is given by:
+
+$B = \sqrt{\frac{3}{2}\frac{\tau_{11}}{\tau_{12}}}$
+
+* Obviously, this simplistic model make some major assumptions:
+  * Whatever energy might have been imparted through elongational flow occuring at the entry into the capillary has relaxed/dissipated. Note that this does not assume dissipation of energy imparted through shear!
+  * The capillary and the extrudate are cylindrical.
+  * The extrudate can swell until all energy has been converted.
+    
+* The model is hence best applicable to cases in which:
+  * Residence time in the capillary is long relative to the relaxation time (e.g. a L/D ratio of 30 or higher)
+  * The capillary is cylindrical, swell is evaluated at the point of maximum strand diameter.
+  * The extrudate is not cooled (which would cause energy to be 'frozen in' as internal stresses) / the extrudate has been stress-relieved and expanded to final shape through tempering (e.g. in a bath of silicone oil).
+    
 
 
 ### Literature
@@ -49,3 +76,5 @@ $\Psi_{1}\omega^{2}=N_{1}(\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G
 [1] Cox, W. P. ; Merz, E. H.: Correlation of dynamic and steady flow viscosities. Journal of Polymer Science 28 (1958) 118, p. 619–622 - DOI: 10.1002/pol.1958.1202811812
 
 [2] Laun, H. M.: Prediction of Elastic Strains of Polymer Melts in Shear and Elongation. Journal of Rheology 30 (1986) 3, p. 459–501 - DOI: 10.1122/1.549855
+
+[3]  Mendelson, R. A. ; Finger, F. L. ; Bagley, E. B.: Die swell and recoverable shear strain in polyethylene extrusion.  Journal of Polymer Science Part C: Polymer Symposia 35 (1971) 1, p. 177–188 - DOI: 10.1002/polc.5070350114
