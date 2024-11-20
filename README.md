@@ -30,6 +30,13 @@ $\Psi_{1}\omega^{2}=N_{1}(\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G
 ## Chapter 2: Analysis of transient behaviour using mirror rules
 
 ### 2.1: First mirror relation of Gleissle
+* First you need to know what start-up of shear looks like: The lower the non-zero shear we choose as target, the longer it takes to reach it. 
+* Now we ask ourselves: What is the longest possible time needed to reach the steady-state viscosity? And what are the intermediate values like?
+* To answer that question, we transform the time t (i.e. how many seconds have passed since start-up) into a shear rate gamma_dot = 1/t.
+* Looking at the steady-state shear viscosity curve for that gamma_dot, we can determine the steady-state shear viscosity. This steady-state shear viscosity is also transient viscosity during start-up.
+* From this we can conclude that [TBA]
+* Do note that this rule is best applicable to an infinitesimally low target shear rate.
+* What are outcomes for time shorter/longer than the characteristic relaxation time?
 
 ### 2.2: Second mirror relation of Gleissle
 
