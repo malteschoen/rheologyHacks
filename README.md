@@ -2,14 +2,22 @@
 
 
 ## Chapter 1: Making the most of oscillatory rheometry
+
 * This chapter gives a condensed view of a pipeline that takes oscillatory rheometer data and turns into something useful to an engineer who is mostly concerned with steady-state behaviour.
 * It must be said that this pipeline is only applicable to data in the regime of linear viscoelasticity (see Chapter 1.1.)
 
 ### 1.1. Linear viscoelasticity
+<details>
+<summary>[CLICK TO EXPAND AND VIEW] </summary>
+ 
 * tba
 * tba
-
+  
+</details>
+ 
 ### 1.2 Cox-Merz-Rule [1]
+<details>
+<summary>[CLICK TO EXPAND AND VIEW] </summary>
 Using this rule, we can relate the elastic storage modulus $G'$ and the viscous loss  modulus   $G''$ to the steady-state shear rate at a certain shear rate (that is equal to the oscillatory frequency).
 
 $\eta(\dot{\gamma}=\omega)=\frac{G''(\omega)}{\omega}\sqrt{1+\left ( \frac{G'(\omega)}{G''(\omega)} \right )^{2}}$
@@ -17,8 +25,11 @@ $\eta(\dot{\gamma}=\omega)=\frac{G''(\omega)}{\omega}\sqrt{1+\left ( \frac{G'(\o
 or formulated in terms of shear stress
 
 $\tau_{12}(\dot{\gamma}=\omega)=G''(\omega)\left [1+\left (\frac{G'(\omega)}{G''(\omega)}  \right )^{2}\right ]^{0.5}$
+</details>
 
 ### 1.3 Launs normal stress rule [2]
+<details>
+<summary>[CLICK TO EXPAND AND VIEW] </summary>
 $N_{1}(\dot{\gamma}=\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G''(\omega)}  \right )^{2}\right ]^{\alpha} \approx \tau_{11}$
 
 with $\alpha$ usually being 0.7
@@ -26,10 +37,14 @@ with $\alpha$ usually being 0.7
 One can also relate the (shear-rate-dependant) first normal stress coefficient $\Psi_{1}$:
 
 $\Psi_{1}\omega^{2}=N_{1}(\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G''(\omega)}  \right )^{2}\right ]^{\alpha}$ 
-
+ </details>
+ 
 ## Chapter 2: Analysis of transient behaviour using mirror rules
 
 ### 2.1: First mirror relation of Gleissle
+<details>
+<summary>[CLICK TO EXPAND AND VIEW] </summary>
+ 
 * First you need to know what start-up of shear looks like: The lower the non-zero shear we choose as target, the longer it takes to reach it. 
 * Now we ask ourselves: What is the longest possible time needed to reach the steady-state viscosity? And what are the intermediate values like?
 * To answer that question, we transform the time t (i.e. how many seconds have passed since start-up) into a shear rate gamma_dot = 1/t.
@@ -37,16 +52,32 @@ $\Psi_{1}\omega^{2}=N_{1}(\omega)=2G'(\omega)\left [1+\left (\frac{G'(\omega)}{G
 * From this we can conclude that [TBA]
 * Do note that this rule is best applicable to an infinitesimally low target shear rate.
 * What are outcomes for time shorter/longer than the characteristic relaxation time?
-
+ </details>
+ 
 ### 2.2: Second mirror relation of Gleissle
+<details>
+<summary>[CLICK TO EXPAND AND VIEW] </summary>
+</details>
 
 ## Chapter 3: From shear viscosity to the shear modulus and back
-
+<details>
+<summary>[CLICK TO EXPAND AND VIEW] </summary>
+ </details>
+ 
 ### 3.1: The interrelation of shear modulus, shear viscosity and relaxation time
 
+<details>
+<summary>[CLICK TO EXPAND AND VIEW] </summary>
+</details>
+
 ### 3.2: just what on earth is steady-state-compliance?
+<details>
+<summary>[CLICK TO EXPAND AND VIEW] </summary>
+</details>
 
 ## Chapter 4: A simple formula for shear-induced die-swell
+<details>
+<summary>[CLICK TO EXPAND AND VIEW] </summary>
 
 * We assume a fluid being sheared in the plane defined by the '1' and '2' axes, of which the '1' axis is the flow direction/direction of the moving plate.
 * This shear flow stores energy in the melt, the elastic recovery of which then causes the extrudate to swell.
@@ -75,7 +106,7 @@ $B = \sqrt{\frac{3}{2}\frac{\tau_{11}}{\tau_{12}}}$
   * The capillary is cylindrical, swell is evaluated at the point of maximum strand diameter.
   * The extrudate is not cooled (which would cause energy to be 'frozen in' as internal stresses) / the extrudate has been stress-relieved and expanded to final shape through tempering (e.g. in a bath of silicone oil).
     
-
+</details>
 
 ### Literature
 
